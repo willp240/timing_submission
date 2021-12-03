@@ -1,0 +1,6 @@
+#!/usr/bin/sh
+source /data/snoplus3/scint_time_team/env-dev.sh
+source ${sh_sub}
+cd ${run_directory_sub}
+${other_commands_sub}
+rat ${mac_sub} -n ${run_number} -N 1
