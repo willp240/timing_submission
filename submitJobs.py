@@ -93,7 +93,7 @@ if __name__ == "__main__":
                         help='path to environment file',
                         default="/data/snoplus3/scint_time_team/rat/env.sh")
     parser.add_argument("-s", "--submission_directory", type=str,
-                       default="/home/parkerw/Software/timing_submission/",
+                       default="/data/snoplus3/scint_time_team/timing_submission",
                        help="path to the directory this file is in, for outputs and inputs")
     parser.add_argument("-d", "--run_directory", type=str,
                        default="/data/snoplus3/scint_time_team/rat/",
